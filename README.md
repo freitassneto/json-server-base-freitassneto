@@ -13,14 +13,14 @@ POST /register
 Este é o endpoint para fazer a requisição de registro.
 Os Campos email e password são obrigatórios.
 
-==============================
+```
 Exemplo de requisição do usuário:
 {
     "email": "zxcd@mail.com",
     "password": 123456
 }
-===============================
-==============================
+```
+```
 Exemplo de Resposta da API:
 {
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inp4Y2RAbWFpbC5jb20iLCJpYXQiOjE2NzE2MzUyNzIsImV4cCI6MTY3MTYzODg3Miwic3ViIjoiMyJ9.S6XpMubmbqdHWgIsaMVxR2n0mwoIYE3nGk5m25hsKNQ",
@@ -29,7 +29,7 @@ Exemplo de Resposta da API:
 "id": 3
 }
 }
-===============================
+```
 
 ### Login
 
@@ -38,15 +38,15 @@ POST /login
 Este é o endpoint para fazer a requisição de login.
 Os Campos email e password são obrigatórios.
 
-==============================
+```
 Exemplo de requisição do usuário:
 {
     "email": "zxcd@mail.com",
     "password": 123456
 }
-===============================
-==============================
+```
 Exemplo de Resposta da API:
+```
 {
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inp4Y2RAbWFpbC5jb20iLCJpYXQiOjE2NzE2MzUzNTUsImV4cCI6MTY3MTYzODk1NSwic3ViIjoiMyJ9.f0xHBK1VWGP2Ddt425uL8wJAhohHiNiZe3QZ4JErqOc",
 "user": {
@@ -54,7 +54,7 @@ Exemplo de Resposta da API:
 "id": 3
 }
 }
-===============================
+```
 
 ### Get Games
 
@@ -76,10 +76,10 @@ Endpoint para listar todos os animais cadastrados.
 GET /users/${userID}
 
 Endpoint para listar informações do usuário.
-É necessário passar o id do usuário, após o endpoint users
-Apenas o titular da conta consegue fazer esta requisição através do accessToken.
-===============================
+>É necessário passar o id do usuário, após o endpoint users
+>Apenas o titular da conta consegue fazer esta requisição através do accessToken.
+```
 headers: {
 Authorization: `Bearer ${token}`
 }
-===============================
+```
