@@ -6,6 +6,60 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "asd@mail.com",
+      "password": "$2a$10$.9bgcZuFZ2TbehCJg7lgYO12SR0ROKNc4cpUs3Ca8uw8dyBi67qEi",
+      "id": 2
+    },
+    {
+      "email": "zxcd@mail.com",
+      "password": "$2a$10$mtdz0lNS01IWKDbGFmjm5OAU3XaeC.6p59Tpv/0S.KrHnAMkykYWq",
+      "id": 3
+    }
+  ],
+  "games": [
+    {
+      "title": "Dota2",
+      "category": "MOBA",
+      "studio": "Valve"
+    },
+    {
+      "title": "League of Legends",
+      "category": "MOBA",
+      "studio": "Riot"
+    },
+    {
+      "title": "Counter-Strike",
+      "category": "First Person Shooting",
+      "studio": "Valve"
+    },
+    {
+      "title": "Valorant",
+      "category": "First Person Shooting",
+      "studio": "Riot"
+    }
+  ],
+  "animals": [
+    {
+      "name": "Gatão",
+      "espécie": "Cat",
+      "gender": "male"
+    },
+    {
+      "name": "Banguela",
+      "espécie": "Cat",
+      "gender": "female"
+    },
+    {
+      "name": "Zeus",
+      "espécie": "Dog",
+      "gender": "male"
+    },
+    {
+      "name": "Roxane",
+      "espécie": "Dog",
+      "gender": "female"
     }
   ]
 }
