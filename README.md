@@ -13,15 +13,15 @@ POST /register
 Este é o endpoint para fazer a requisição de registro.
 Os Campos email e password são obrigatórios.
 
-```
 Exemplo de requisição do usuário:
+```
 {
     "email": "zxcd@mail.com",
     "password": 123456
 }
 ```
-`
 Exemplo de Resposta da API:
+```
 {
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inp4Y2RAbWFpbC5jb20iLCJpYXQiOjE2NzE2MzUyNzIsImV4cCI6MTY3MTYzODg3Miwic3ViIjoiMyJ9.S6XpMubmbqdHWgIsaMVxR2n0mwoIYE3nGk5m25hsKNQ",
 "user": {
@@ -38,8 +38,8 @@ POST /login
 Este é o endpoint para fazer a requisição de login.
 Os Campos email e password são obrigatórios.
 
-```
 Exemplo de requisição do usuário:
+```
 {
     "email": "zxcd@mail.com",
     "password": 123456
@@ -78,8 +78,8 @@ GET /users/${userID}
 Endpoint para listar informações do usuário.
 >É necessário passar o id do usuário, após o endpoint users
 >Apenas o titular da conta consegue fazer esta requisição através do accessToken.
-`
+```
 headers: {
 Authorization: `Bearer ${token}`
 }
-`
+```
