@@ -76,7 +76,8 @@ Endpoint para listar todos os animais cadastrados.
 GET /users/${userID}
 
 Endpoint para listar informações do usuário.
->É necessário passar o id do usuário, após o endpoint users
+>É necessário passar o id do usuário, após o endpoint users.
+
 >Apenas o titular da conta consegue fazer esta requisição através do accessToken.
 ```
 headers: {
